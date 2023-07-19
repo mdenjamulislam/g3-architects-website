@@ -18,6 +18,22 @@
         width: 100%;
     }
 
+    .teams .container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .teams-image-container {
+        grid-template-columns: 1fr;
+        padding-left: 0;
+    }
+
+    .teams-cont {
+        padding: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
 
 
 
@@ -46,6 +62,21 @@
     }
     .banner-title h1 {
         font-size: 2rem;
+    }
+
+    .teams .container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .teams-image-container {
+        padding-left: 0;
+    }
+
+    .teams-cont {
+        padding: 0;
+        padding-bottom: 50px;
+        text-align: center;
     }
     
 }
