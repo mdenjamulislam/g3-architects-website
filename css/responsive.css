@@ -1,0 +1,53 @@
+/* For Mobile Devices */
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+
+    .header .navbar {
+        flex-direction: column;
+    }
+
+    .header .navbar h3 {
+        padding-bottom: 30px;
+    }
+
+    .banner-title {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+}
+
+
+/* For Tablet Devices */
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+
+    .container {
+        width: 95%;
+        padding: 0 15px;
+    }
+    .header .navbar {
+        flex-direction: column;
+    }
+
+    .header .navbar h3 {
+        padding-bottom: 50px;
+    }
+
+    .banner-title {
+        width: 90%;
+    }
+    .banner-title h1 {
+        font-size: 2rem;
+    }
+    
+}
