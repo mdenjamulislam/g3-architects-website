@@ -34,6 +34,18 @@
         text-align: center;
     }
 
+    .facts-title-wrap {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .facts-card-container {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+
 
 
 
@@ -77,6 +89,19 @@
         padding: 0;
         padding-bottom: 50px;
         text-align: center;
+    }
+
+    .facts-title-wrap {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .facts-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
     }
     
 }
